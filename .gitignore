@@ -1,0 +1,56 @@
+################################
+## .NET Core / .NET 5+
+################################
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+*.log
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.dbmdl
+*.cache
+*.pdb
+*.bak
+
+# Visual Studio / Rider / VS Code
+.vs/
+.vscode/
+.idea/
+*.sln.iml
+
+# Publish profiles
+**/Properties/PublishProfiles/
+*.pubxml
+*.pubxml.user
+app.publish/
+*.Publish.xml
+
+# NuGet
+*.nupkg
+packages/
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Entity Framework
+**/Migrations/
+*.Designer.cs
+
+# IIS Express
+.vsconfig
+iisexpress/
+*.iissettings.json
+
+# Web config transforms
+web.*.config
+
+# OS
+.DS_Store
+Thumbs.db
